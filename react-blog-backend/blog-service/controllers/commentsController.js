@@ -59,4 +59,168 @@
           // POST /comments/:id → addComment
           // PUT /comments/:id → editComment
           // DELETE /comments/:id → deleteComment
-          
+
+
+          // blog-service/controllers/commentsController.js
+
+// 1. Import Models
+const Comment = require("../models/Comments");
+const Post = require("../models/Posts");
+
+// 2. Fetch All Comments for a Post
+const getComments = async (req, res) => {
+  try {
+    const postId = req.params.id;
+
+    const comments = await Comment.find({ post: postId })
+      .populate("author", "name email")
+      .sort({ createdAt: -1 });
+
+    return res.json(comments);
+  } catch (error) {
+    return res.status(500).json({
+      message: "Failed to fetch comments",
+      error: error.message,
+    });
+  }
+};
+
+// 3. Fetch a Single Comment by ID 
+const getCommentById = async (req, res) => {
+  try {
+    const commentId = req.params.id;
+
+    const comment = await Comment.findById(commentId).populate(
+      "author",
+      "name email"
+    );
+
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+
+    return res.json(comment);
+  } catch (error) {
+    return res.status(500).json({
+      message: "Failed to fetch comment",
+      error: error.message,
+    });
+  }
+};
+
+// 4. Add a New Comment
+const addComment = async (req, res) => {
+  try {
+    const postId = req.params.id;
+    const { content } = req.body;
+
+    if (!content || !content.trim()) {
+      return res.status(400).json({ message: "Content is required" });
+    }
+
+    const post = await Post.findById(postId);
+    if (!post) {
+      return res.status(404).json({ message: "Post not found" });
+    }
+
+    const comment = new Comment({
+      content: content.trim(),
+      author: req.user.id, // comes from protect middleware
+      post: postId,
+    });
+
+    const savedComment = await comment.save();
+
+    // Push comment ID into Post.comments array
+    post.comments.push(savedComment._id);
+    await post.save();
+
+    // Return populated comment for nicer UI
+    const populated = await Comment.findById(savedComment._id).populate(
+      "author",
+      "name email"
+    );
+
+    return res.status(201).json(populated);
+  } catch (error) {
+    return res.status(500).json({
+      message: "Failed to add comment",
+      error: error.message,
+    });
+  }
+};
+
+// 5. Edit a Comment
+const editComment = async (req, res) => {
+  try {
+    const commentId = req.params.id;
+    const { content } = req.body;
+
+    if (!content || !content.trim()) {
+      return res.status(400).json({ message: "Content is required" });
+    }
+
+    const comment = await Comment.findById(commentId);
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+
+    // Author-only
+    if (String(comment.author) !== String(req.user.id)) {
+      return res.status(403).json({ message: "Not authorized to edit this comment" });
+    }
+
+    comment.content = content.trim();
+    await comment.save();
+
+    const populated = await Comment.findById(comment._id).populate(
+      "author",
+      "name email"
+    );
+
+    return res.json(populated);
+  } catch (error) {
+    return res.status(500).json({
+      message: "Failed to edit comment",
+      error: error.message,
+    });
+  }
+};
+
+// 6. Delete a Comment
+const deleteComment = async (req, res) => {
+  try {
+    const commentId = req.params.id;
+
+    const comment = await Comment.findById(commentId);
+    if (!comment) {
+      return res.status(404).json({ message: "Comment not found" });
+    }
+
+    if (String(comment.author) !== String(req.user.id)) {
+      return res.status(403).json({ message: "Not authorized to delete this comment" });
+    }
+
+    await comment.deleteOne();
+
+    await Post.updateOne(
+      { _id: comment.post },
+      { $pull: { comments: commentId } }
+    );
+
+    return res.json({ message: "Comment deleted" });
+  } catch (error) {
+    return res.status(500).json({
+      message: "Failed to delete comment",
+      error: error.message,
+    });
+  }
+};
+
+module.exports = {
+  getComments,
+  getCommentById,
+  addComment,
+  editComment,
+  deleteComment,
+};

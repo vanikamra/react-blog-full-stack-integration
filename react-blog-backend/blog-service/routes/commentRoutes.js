@@ -44,3 +44,37 @@
       // Steps:
           // Use module.exports to export the router instance.
           // Ensure the router is imported and mounted in the main application file (e.g., app.js).
+
+
+const express = require("express");
+const router = express.Router();
+
+const {
+  getComments,
+  addComment,
+  editComment,
+  deleteComment,
+} = require("../controllers/commentsController");
+
+const { protect } = require("../middleware/authMiddleware");
+const logger = require("../blogLogs/logger");
+
+// Log all incoming requests
+router.use((req, res, next) => {
+  logger.info(`${req.method} ${req.originalUrl} - Request received`);
+  next();
+});
+
+// Fetch comments for a post (postId)
+router.get("/:id", protect, getComments);
+
+// Add a comment to a post (postId)
+router.post("/:id", protect, addComment);
+
+// Edit a comment (commentId)
+router.put("/:id", protect, editComment);
+
+// Delete a comment (commentId)
+router.delete("/:id", protect, deleteComment);
+
+module.exports = router;

@@ -7,6 +7,7 @@ const logger = require("./blogLogs/logger");
 
 // Import Routes
 const postRoutes = require("./routes/postRoutes");
+const commentRoutes = require("./routes/commentRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 5002;
@@ -26,6 +27,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.use("/api/posts", postRoutes);
+app.use("/api/comments", commentRoutes);
 
 // MongoDB Connection
 mongoose
@@ -47,3 +49,7 @@ app.listen(PORT, () => {
   console.log(`Blog Service running on port ${PORT}`);
   logger.info(`Blog Service running on port ${PORT}`);
 });
+
+
+
+

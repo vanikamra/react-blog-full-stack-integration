@@ -4,6 +4,9 @@ import PropTypes from "prop-types";
 import moment from "moment"; // Import moment.js for date formatting
 import styles from "./CommentSection.module.css";
 
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5003";
+
+
 function CommentSection({ postId }) {
   const [comments, setComments] = useState([]); // State to store fetched comments
   const [newComment, setNewComment] = useState(""); // State for new comment input
@@ -15,13 +18,45 @@ function CommentSection({ postId }) {
   // useEffect hook to fetch and display comments for a specific post.  The dependency array [postId] ensures this runs whenever the postId changes  This hook is used to perform side effects in functional components, such as fetching data, subscribing to events, or manually changing the DOM.
   useEffect(() => {
     // Define an asynchronous function to fetch comments from the API.  Asynchronous functions allow you to work with promises and await their resolution.  This makes asynchronous code easier to read and reason about.
-    const fetchComments = async () => {
+    // const fetchComments = async () => {
       // TODO
                 // Access the authentication token from localStorage. If the token does not exist, alert the user and halt further execution.
                 // Use the postId to construct the API URL. This URL should point to the endpoint responsible for fetching comments.
                 // Make a GET request to the API with the token included in the Authorization header.
                 // Parse the response data and update the component's comments state with the fetched data.
                 // Handle any errors during the request gracefully, logging them for debugging purposes.
+  
+const fetchComments = async () => {
+try {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("Please log in to view comments.");
+      setComments([]);
+      return;
+    }
+
+    // GET comments for this post
+    const url = `${API_BASE}/api/comments/${postId}`;
+
+    const res = await fetch(url, {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`Fetch comments failed: ${res.status} ${errText}`);
+    }
+
+    const data = await res.json();
+    setComments(Array.isArray(data) ? data : []);
+  } catch (error) {
+    console.error("Error fetching comments:", error);
+   
+};
+
 
       setComments([]);
     };
@@ -40,6 +75,46 @@ function CommentSection({ postId }) {
           // If the API call is successful, add the new comment to the comments state.
           // Clear the input field after successfully adding the comment.
           // Handle any errors gracefully, displaying user-friendly error messages.
+       e.preventDefault();
+
+  try {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("Please log in to add a comment.");
+      return;
+    }
+
+    if (!newComment.trim()) return;
+
+    setLoading(true);
+
+    const url = `${API_BASE}/api/comments/${postId}`;
+
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({ content: newComment.trim() }),
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`Add comment failed: ${res.status} ${errText}`);
+    }
+
+    const created = await res.json();
+
+    // add new comment to top
+    setComments((prev) => [created, ...prev]);
+    setNewComment("");
+  } catch (error) {
+    console.error("Error adding comment:", error);
+    alert("Could not add comment. Check your token and gateway.");
+  } finally {
+    setLoading(false);
+  }
 
   };
 
@@ -61,6 +136,55 @@ function CommentSection({ postId }) {
           // Clear the edit mode by resetting the editComment and newComment states.
           // Ensure error handling is robust, with clear messages for the user in case of failure.
 
+       e.preventDefault();
+
+  try {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("Please log in to update a comment.");
+      return;
+    }
+
+    if (!editComment?._id) {
+      alert("No comment selected to edit.");
+      return;
+    }
+
+    if (!newComment.trim()) return;
+
+    setLoading(true);
+
+    const url = `${API_BASE}/api/comments/${editComment._id}`;
+
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({ content: newComment.trim() }),
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`Update comment failed: ${res.status} ${errText}`);
+    }
+
+    const updated = await res.json();
+
+    setComments((prev) =>
+      prev.map((c) => (c._id === updated._id ? updated : c))
+    );
+
+    setEditComment(null);
+    setNewComment("");
+  } catch (error) {
+    console.error("Error updating comment:", error);
+    alert("Could not update comment.");
+  } finally {
+    setLoading(false);
+  }
+
   };
 
   // Function to handle deleting a comment
@@ -72,9 +196,65 @@ function CommentSection({ postId }) {
             // Send a DELETE request to the API with the token in the Authorization header.
             // If successful, remove the deleted comment from the comments state to update the UI.
             // Handle any errors, providing meaningful feedback to the user.
+     try {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("Please log in to delete a comment.");
+      return;
+    }
 
+    const currentUserId =
+      localStorage.getItem("userId") ||
+      (() => {
+        const userRaw = localStorage.getItem("user");
+        if (!userRaw) return null;
+        try {
+          const u = JSON.parse(userRaw);
+          return u?.id || u?._id || null;
+        } catch {
+          return null;
+        }
+      })();
 
-  };
+    // commentAuthorId might be an object or an id string
+    const normalizedAuthorId =
+      typeof commentAuthorId === "object"
+        ? commentAuthorId?._id
+        : commentAuthorId;
+
+    // client-side check 
+    if (
+      currentUserId &&
+      normalizedAuthorId &&
+      String(currentUserId) !== String(normalizedAuthorId)
+    ) {
+      alert("You can only delete your own comment.");
+      return;
+    }
+
+    const ok = window.confirm("Delete this comment?");
+    if (!ok) return;
+
+    const url = `${API_BASE}/api/comments/${commentId}`;
+
+    const res = await fetch(url, {
+      method: "DELETE",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`Delete comment failed: ${res.status} ${errText}`);
+    }
+
+    setComments((prev) => prev.filter((c) => c._id !== commentId));
+  } catch (error) {
+    console.error("Error deleting comment:", error);
+    alert("Could not delete comment.");
+  }
+};
 
   // Function to toggle the visibility of the comments section
   const toggleShowComments = () => {
@@ -113,7 +293,7 @@ function CommentSection({ postId }) {
           <button onClick={() => handleEditComment(comment)}>Edit</button>
           {/* Button to delete the comment */}
           <button
-            onClick={() => handleDeleteComment(comment._id, comment.author)} // Pass comment ID and author ID for authorization
+            onClick={() => handleDeleteComment(comment._id, comment.author?._id || comment.author)} // Pass comment ID and author ID for authorization
           >
             Delete
           </button>
@@ -210,7 +390,7 @@ function CommentSection({ postId }) {
 
 // PropTypes for type checking the component's props
 CommentSection.propTypes = {
-  postId: PropTypes.number.isRequired, // postId is required and must be a number
+  postId: PropTypes.string.isRequired, // postId is required and must be a string 
 };
 
 // Export the CommentSection component as the default export

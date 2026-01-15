@@ -176,7 +176,7 @@ exports.updatePost = async (req, res) => {
       return res.status(403).json({ message: "Not authorized to update this post" });
     }
 
-    // Build updatedData (only include provided fields)
+    // Build updatedData
     const updatedData = {};
     if (title !== undefined) updatedData.title = title;
     if (content !== undefined) updatedData.content = content;

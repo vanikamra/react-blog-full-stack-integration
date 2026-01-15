@@ -102,7 +102,7 @@ const handleDelete = async () => {
     const stored = localStorage.getItem("auth_user");
     const authUser = stored ? JSON.parse(stored) : null;
 
-    // Try a few common shapes (depends on starter)
+    // Try a few common shapes 
     const token =
       authUser?.token ||
       authUser?.userAccessToken ||
@@ -120,7 +120,7 @@ const handleDelete = async () => {
       return;
     }
 
-    // 3) Verify User Authorization (UI check)
+    // 3) Verify User Authorization
     const authorId = author?._id || author?.id || author;
 
 
@@ -298,7 +298,7 @@ return (
 
 // PropTypes for type checking the component's props
 BlogPost.propTypes = {
-  id: PropTypes.number.isRequired, //id is required and must be a number
+  id: PropTypes.string.isRequired, //id is required and must be a string
   title: PropTypes.string.isRequired, // title is required and must be a string
   content: PropTypes.string.isRequired, // content is required and must be a string
   author: PropTypes.string.isRequired, //author is required and must be a string

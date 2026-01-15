@@ -127,10 +127,57 @@ router.use("/posts", protect, async (req, res) => {
 
 // TODO
 // Implement /comments route to handle comment functionality
+router.use("/comments", protect, async (req, res) => {
+  try {
+    const targetUrl = `${process.env.BLOG_SERVICE_URL}/api/comments${req.url}`;
+
+    const response = await axios({
+      method: req.method,
+      url: targetUrl,
+      headers: {
+        Authorization: req.headers.authorization, // forward token
+      },
+      data: req.body, // forward request body
+    });
+
+    logger.info(`Forwarded ${req.method} ${req.originalUrl} -> ${targetUrl}`);
+    return res.status(response.status).json(response.data);
+  } catch (error) {
+    logger.error(`Error forwarding /comments: ${error.message}`);
+
+    const status = error.response?.status || 500;
+    const data = error.response?.data || { message: "Error forwarding request" };
+
+    return res.status(status).json(data);
+  }
+});
 
 // TODO
 // Implement /likes route to handle comment functionality
+router.use("/likes", protect, async (req, res) => {
+  try {
+    const targetUrl = `${process.env.BLOG_SERVICE_URL}/api/likes${req.url}`;
 
+    const response = await axios({
+      method: req.method,
+      url: targetUrl,
+      headers: {
+        Authorization: req.headers.authorization,
+      },
+      data: req.body,
+    });
+
+    logger.info(`Forwarded ${req.method} ${req.originalUrl} -> ${targetUrl}`);
+    return res.status(response.status).json(response.data);
+  } catch (error) {
+    logger.error(`Error forwarding /likes: ${error.message}`);
+
+    const status = error.response?.status || 500;
+    const data = error.response?.data || { message: "Error forwarding request" };
+
+    return res.status(status).json(data);
+  }
+});
 
 
 // Fallback route for any unmatched requests. This route will handle any request that doesn't match any of the defined routes above.  This acts like a 404 error handler
