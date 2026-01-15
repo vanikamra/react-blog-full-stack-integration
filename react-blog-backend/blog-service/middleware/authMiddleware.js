@@ -4,7 +4,18 @@ const { verifyToken, decodeToken } = require("../utils/jwtUtil"); // Import JWT 
 exports.protect = async (req, res, next) => {
   try {
     const authHeader = req.headers.authorization; // Extract the Authorization header
-    const token = authHeader?.split(" ")[1]; // Extract the token from the header
+    // const token = authHeader?.split(" ")[1]; // Extract the token from the header
+
+// Accept:
+// 1) "Bearer <token>"
+// 2) "<token>"
+const token = (
+  authHeader?.startsWith("Bearer ")
+    ? authHeader.split(" ")[1]
+    : authHeader
+)?.trim();
+
+
 
     if (!token) {
       logger.warn("No token provided in Authorization header");

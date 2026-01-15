@@ -36,7 +36,7 @@ function BlogPost({
   };
 
   // Function to handle deleting a post
-  const handleDelete = async () => {
+  // const handleDelete = async () => {
     // TODO
     // 1. Retrieve User Authentication Information
           // Objective: Access the currently logged-in user's authentication details.
@@ -94,7 +94,67 @@ function BlogPost({
                 // In the catch block:
                 // Display the error message using alert().
                 // Log the error for debugging purposes, if necessary.
-  };
+
+  // Function to handle deleting a post
+const handleDelete = async () => {
+  try {
+    // 1) Retrieve User Authentication Information
+    const stored = localStorage.getItem("auth_user");
+    const authUser = stored ? JSON.parse(stored) : null;
+
+    // Try a few common shapes (depends on starter)
+    const token =
+      authUser?.token ||
+      authUser?.userAccessToken ||
+      localStorage.getItem("userAccessToken");
+
+    const currentUserId =
+      authUser?.user?.id ||
+      authUser?.user?._id ||
+      authUser?.id ||
+      authUser?._id;
+
+    // 2) Check for User Authentication
+    if (!token) {
+      alert("Authentication token not found. Please log in.");
+      return;
+    }
+
+    // 3) Verify User Authorization (UI check)
+    const authorId = author?._id || author?.id || author;
+
+
+    if (authorId && currentUserId && authorId.toString() !== currentUserId.toString()) {
+      alert("You are restricted to delete this post, as you are not the owner.");
+      return;
+    }
+
+    // 4) Send DELETE Request
+    const response = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/posts/${id}`,
+      {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    // 5) Handle API Response
+    if (!response.ok) {
+      throw new Error("Failed to delete the post. Please try again.");
+    }
+
+    alert("Post deleted successfully!");
+
+    // 6) Redirect to Home Page
+    navigate("/");
+  } catch (error) {
+    // 7) Handle Errors
+    alert(error.message);
+    console.error("Delete post error:", error);
+  }
+};
 
   const displayContent = isExpanded
     ? content // If isExpanded is true, display the full content.
@@ -119,7 +179,7 @@ function BlogPost({
     );
   };
 
-  return (
+return (
     //JSX to render the BlogPost component
     <article className={`${styles.blogPost} ${isDarkMode ? styles.dark : ""}`}>
       {" "}

@@ -54,7 +54,12 @@ export function BlogProvider({ children }) {
 
       try {
         // Get authentication token from local storage
-        const { token } = JSON.parse(localStorage.getItem("auth_user") || "{}");
+        // const { token } = JSON.parse(localStorage.getItem("auth_user") || "{}");
+
+        const stored = JSON.parse(localStorage.getItem("auth_user") || "{}");
+        const token = stored?.token || localStorage.getItem("userAccessToken");
+        console.log("AUTH TOKEN USED:", token);
+
         // Throw error if no token found
         if (!token) throw new Error("Authentication token not found");
 
@@ -81,7 +86,10 @@ export function BlogProvider({ children }) {
           );
 
           // Throw error if response is not ok
-          if (!response.ok) throw new Error("Failed to fetch posts");
+          if (!response.ok) {
+            const text = await response.text(); // show backend message
+            throw new Error(`Failed to fetch posts (${response.status}): ${text}`);
+          }
 
           const data = await response.json(); // Parse response data as JSON
           totalPages = data.totalPages; // Update totalPages from response
@@ -93,7 +101,7 @@ export function BlogProvider({ children }) {
             content: post.content,
             tags: post.tags.map((tag) => tag.name), // Extract tag names
             categories: post.categories.map((category) => category.name), // Extract category names
-            author: post.author, //author id
+            author: post.author?._id || post.author, //author id
             date: new Date(post.createdAt).toLocaleDateString(), // Format date
             likes: post.likes.length, //count likes
             comments: post.comments.length, //count comments

@@ -24,7 +24,7 @@ router.post("/login", login);
 // Define protected routes (authentication required using the 'protect' middleware)
 
 // Route for user logout. It handles POST requests to /logout.  The protect middleware ensures that only authenticated users can access this route.
-router.post("/logout", protect, (req, res) => {
+router.post("/logout", (req, res) => {
   // Log that the logout route was accessed
   logger.info("Logout route hit");
   // Call the logout function from the authController to handle the logout logic.

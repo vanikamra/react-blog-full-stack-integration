@@ -8185,3 +8185,177 @@
 {"level":30,"time":1768410858766,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
 {"level":30,"time":1768410859099,"pid":23843,"hostname":"mac.lan","msg":"Deleted unused tag: test"}
 {"level":30,"time":1768410859170,"pid":23843,"hostname":"mac.lan","msg":"Deleted unused category: general"}
+{"level":30,"time":1768412106438,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106439,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106439,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106490,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106491,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106491,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106537,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106538,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106538,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106587,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106588,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106588,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106635,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106636,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106636,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106686,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106687,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106687,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106740,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106741,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106741,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106792,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106793,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106793,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106849,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106850,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106850,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106906,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106907,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106907,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106959,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412106960,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412106960,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107009,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107010,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107010,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107055,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107056,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107056,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107108,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107109,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107109,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107163,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107164,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107164,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107218,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107219,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107219,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107273,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107274,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107274,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107321,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107322,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107322,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107372,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107373,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107373,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107421,"pid":23843,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768412107422,"pid":23843,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768412107423,"pid":23843,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768420455314,"pid":32811,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768420455656,"pid":32811,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768422738609,"pid":35600,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768422738941,"pid":35600,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768424752166,"pid":37654,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768424752493,"pid":37654,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768433158878,"pid":44806,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768433159188,"pid":44806,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768433713572,"pid":45962,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768433713901,"pid":45962,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768434101906,"pid":46399,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768434102259,"pid":46399,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768436047216,"pid":47673,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768436047548,"pid":47673,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768436332477,"pid":48335,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768436332793,"pid":48335,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768436438747,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436438805,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436438857,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436438910,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436503175,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436503221,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436503267,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436503336,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762290,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762346,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762389,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762442,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762501,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762545,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762589,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762653,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762702,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436762769,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436829633,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436829680,"pid":48335,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768436869935,"pid":48335,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768436869935,"pid":48335,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768436870016,"pid":48335,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768436870083,"pid":48335,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768436870083,"pid":48335,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:99:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768436877430,"pid":48335,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768436877430,"pid":48335,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768436877459,"pid":48335,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768436877481,"pid":48335,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768436877482,"pid":48335,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:99:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768436952123,"pid":48335,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768436952124,"pid":48335,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768436952145,"pid":48335,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768436952166,"pid":48335,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768436952166,"pid":48335,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:99:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768437261112,"pid":49111,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768437261503,"pid":49111,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768437288958,"pid":49111,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437289053,"pid":49111,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437289115,"pid":49111,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437289201,"pid":49111,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437325788,"pid":49111,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768437325788,"pid":49111,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768437325845,"pid":49111,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768437325870,"pid":49111,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768437325870,"pid":49111,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:114:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768437333620,"pid":49111,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768437333621,"pid":49111,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768437333645,"pid":49111,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768437333666,"pid":49111,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768437333667,"pid":49111,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:114:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768437388096,"pid":49111,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768437388096,"pid":49111,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768437388121,"pid":49111,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768437388154,"pid":49111,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":50,"time":1768437388155,"pid":49111,"hostname":"mac.lan","msg":"Error occurred while creating a post: Cannot read properties of undefined (reading 'id') TypeError: Cannot read properties of undefined (reading 'id')\n    at exports.createPost (/Users/vani/Downloads/react-blog-fsd-student-assignment/react-blog-backend/blog-service/controllers/postController.js:114:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":30,"time":1768437637683,"pid":49930,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768437638008,"pid":49930,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768437653408,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437653470,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437653511,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437653557,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437688500,"pid":49930,"hostname":"mac.lan","msg":"POST /api/posts - Request received"}
+{"level":30,"time":1768437688502,"pid":49930,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437688503,"pid":49930,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437688503,"pid":49930,"hostname":"mac.lan","msg":"Received request to create a new post"}
+{"level":30,"time":1768437688531,"pid":49930,"hostname":"mac.lan","msg":"Tags processed successfully"}
+{"level":30,"time":1768437688565,"pid":49930,"hostname":"mac.lan","msg":"Categories processed successfully"}
+{"level":30,"time":1768437688602,"pid":49930,"hostname":"mac.lan","msg":"Post created successfully"}
+{"level":30,"time":1768437690410,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437690491,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437690573,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437690654,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437690733,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437690823,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437699635,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts/696837b8a5979325d9d69d40 - Request received"}
+{"level":30,"time":1768437699718,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts/696837b8a5979325d9d69d40 - Request received"}
+{"level":30,"time":1768437705857,"pid":49930,"hostname":"mac.lan","msg":"PUT /api/posts/696837b8a5979325d9d69d40 - Request received"}
+{"level":30,"time":1768437705859,"pid":49930,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437705859,"pid":49930,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437707486,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437707557,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437707641,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437707729,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437707807,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437707876,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437709387,"pid":49930,"hostname":"mac.lan","msg":"DELETE /api/posts/696837b8a5979325d9d69d40 - Request received"}
+{"level":30,"time":1768437709389,"pid":49930,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437709389,"pid":49930,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768437709698,"pid":49930,"hostname":"mac.lan","msg":"Deleted unused tag: test"}
+{"level":30,"time":1768437709751,"pid":49930,"hostname":"mac.lan","msg":"Deleted unused tag: enter"}
+{"level":30,"time":1768437709834,"pid":49930,"hostname":"mac.lan","msg":"Deleted unused category: general"}
+{"level":30,"time":1768437711535,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437711587,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437711629,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437711672,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437711729,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768437711781,"pid":49930,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}

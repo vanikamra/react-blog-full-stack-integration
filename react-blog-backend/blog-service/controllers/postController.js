@@ -80,14 +80,29 @@ exports.getPostById = async (req, res) => {
 exports.createPost = async (req, res) => {
   const { title, content, tags, categories } = req.body;
 
+  const normalizedTags = Array.isArray(tags)
+  ? tags
+  : tags
+  ? [tags]
+  : [];
+
+const normalizedCategories = Array.isArray(categories)
+  ? categories
+  : Array.isArray(category)
+  ? category
+  : category
+  ? [category]
+  : [];
+
+
   try {
     logger.info("Received request to create a new post", { title, tags, categories });
 
     // Create or retrieve associated tags and categories
-    const tagIds = await createOrGetTags(tags);
+    const tagIds = await createOrGetTags(normalizedTags);
     logger.info("Tags processed successfully", { tagIds });
 
-    const categoryIds = await createOrGetCategories(categories);
+    const categoryIds = await createOrGetCategories(normalizedCategories);
     logger.info("Categories processed successfully", { categoryIds });
 
     // Create and save the post

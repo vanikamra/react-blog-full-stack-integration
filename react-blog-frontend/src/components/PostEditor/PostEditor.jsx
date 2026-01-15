@@ -27,11 +27,14 @@ function PostEditor({ post = {}, isDarkMode }) {
 
   useEffect(() => {
     // Use effect hook to populate the form with existing post data if provided for editing a post.  This effect runs when the `post` prop changes.
-    if (post && post.id) {
+    // if (post && post.id) {
+      if (post && (post.id || post._id)) {
+        
+
       // Check if a post object with an ID is provided  If there is a post and it has an id, it means we are editing an existing post
       setFormData({
         // Populate the formData state with values from the existing post
-        id: post.id,
+        id: post.id || post._id,
         title: post.title || "",
         content: post.content || "",
         author: post.author || "",
@@ -116,6 +119,7 @@ function PostEditor({ post = {}, isDarkMode }) {
     }));
   };
 
+
 // TODO Update handleSubmit Function
     // 1: Check the condition where !formData.id is validating
       // Remove this condition so that update functionality can also be implemented here
@@ -151,11 +155,14 @@ function PostEditor({ post = {}, isDarkMode }) {
     setErrors(newErrors); //Update the errors state with the new errors
 
     if (Object.keys(newErrors).length === 0) {
-      if (!formData.id ) {   
+      // if (!formData.id ) {   
       // Proceed if there are no errors  Check if there are any errors after validation
       try {
         //Get the authentication token from local storage
-        const { token } = JSON.parse(localStorage.getItem("auth_user") || "{}");
+        // const { token } = JSON.parse(localStorage.getItem("auth_user") || "{}");
+        const stored = JSON.parse(localStorage.getItem("auth_user") || "{}");
+        const token = stored?.token || localStorage.getItem("userAccessToken");
+
         console.log("Token:", token); // Log the token for debugging
 
         if (!token) {
@@ -172,9 +179,15 @@ function PostEditor({ post = {}, isDarkMode }) {
           categories: [formData.category], // Wrap category in an array as the backend expects it
         };
 
-        const apiUrl = `${import.meta.env.VITE_API_URL}/api/posts`;
+        // const apiUrl = `${import.meta.env.VITE_API_URL}/api/posts`;
 
-        const method = "POST";
+        // const method = "POST";
+
+        const apiUrl = formData.id
+          ? `${import.meta.env.VITE_API_URL}/api/posts/${formData.id}`
+          : `${import.meta.env.VITE_API_URL}/api/posts`;
+
+        const method = formData.id ? "PUT" : "POST";
 
         const response = await fetch(apiUrl, {
           //Send API request to create/update post
@@ -200,7 +213,7 @@ function PostEditor({ post = {}, isDarkMode }) {
       } catch (error) {
         alert(error.message); //Display error message to user in an alert box
       }
-    }
+    // }
     } else {
       //Alert the user to fix errors before submitting.
       alert("Please fix the errors before publishing.");
