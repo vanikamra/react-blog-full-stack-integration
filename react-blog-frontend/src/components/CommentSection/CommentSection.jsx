@@ -61,13 +61,9 @@ try {
     setComments(Array.isArray(data) ? data : []);
   } catch (error) {
     console.error("Error fetching comments:", error);
-   
-};
-
-
       setComments([]);
-    };
-
+  }
+};
     // Call the fetchComments function to initiate the comment fetching process.
     fetchComments();
     // Specify the postId as a dependency for the useEffect hook. This ensures that the effect runs whenever the postId changes.  If the postId changes, the component needs to fetch the comments for the new post
