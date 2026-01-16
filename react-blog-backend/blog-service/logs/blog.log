@@ -8595,3 +8595,598 @@
 {"level":30,"time":1768503541180,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
 {"level":30,"time":1768503541250,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
 {"level":30,"time":1768503541321,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509704748,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509704852,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705009,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705131,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705212,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705299,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705381,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705456,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705530,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705610,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705701,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705773,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705787,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509705787,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509705788,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509705788,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509705808,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509705808,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509705808,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509705808,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509705840,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509705942,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706012,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706125,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706129,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509706129,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509706131,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509706131,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509706158,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509706158,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768509706159,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509706159,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768509706200,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706277,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706361,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706432,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706510,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706609,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706706,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768509706799,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510439806,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440315,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440401,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440482,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440564,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440649,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440728,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440812,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440887,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510440960,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441041,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441132,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441151,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441151,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441152,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441152,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441186,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441186,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441187,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441187,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441360,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441430,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441491,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441568,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441580,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441580,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441581,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441581,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441612,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441612,"pid":72164,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768510441614,"pid":72164,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441614,"pid":72164,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768510441656,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441728,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441817,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441885,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510441971,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510442051,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510442132,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768510442216,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523615409,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523615904,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523615996,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616122,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616215,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616314,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616392,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616471,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616540,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616622,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616713,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616800,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616861,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523616942,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617026,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617108,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617184,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617274,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617354,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617443,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617514,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617593,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617680,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768523617765,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531925447,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531925902,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531925998,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926075,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926153,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926230,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926297,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926393,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926459,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926523,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926585,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926668,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926739,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926813,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926883,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531926962,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927050,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927131,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927206,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927273,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927342,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927417,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927496,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768531927586,"pid":72164,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574495110,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574495117,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574505079,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574505081,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574533082,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574533085,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574549075,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574549077,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574555078,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574555090,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574584076,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574584078,"pid":72164,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574685563,"pid":10187,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768574685893,"pid":10187,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768574715877,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574715971,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716083,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716164,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716243,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716313,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716427,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716464,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574716464,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574716466,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574716466,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574716517,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716598,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716638,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574716638,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574716639,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574716639,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574716676,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716746,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716835,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716912,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574716983,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574717062,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574717139,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741145,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741232,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741305,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741385,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741450,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741515,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741584,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741615,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574741616,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574741618,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574741618,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574741648,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574741648,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574741649,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574741649,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574741658,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741730,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741816,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741890,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574741971,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756363,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756443,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756502,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756514,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574756514,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574756517,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574756517,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574756540,"pid":10187,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768574756540,"pid":10187,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768574756540,"pid":10187,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574756540,"pid":10187,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768574756581,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756653,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756714,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756775,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756837,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756916,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768574756984,"pid":10187,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575187276,"pid":10962,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768575187639,"pid":10962,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768575205691,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575205779,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575205849,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575205935,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206020,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206108,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206178,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206207,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575206207,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575206211,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575206211,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575206255,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206333,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206407,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575206407,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575206408,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575206408,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575206416,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206498,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206573,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206645,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206725,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206785,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575206853,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225062,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225140,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225204,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225215,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575225215,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575225216,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575225216,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575225252,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575225252,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575225253,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575225253,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575225283,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225346,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225423,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225488,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225579,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225668,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575225750,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575237763,"pid":10962,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575237763,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575237764,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575237765,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575237876,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575237877,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575237878,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575237878,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575238868,"pid":10962,"hostname":"mac.lan","msg":"DELETE /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575238868,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: DELETE /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575238869,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575238869,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575238976,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575238976,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575238977,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575238978,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575239906,"pid":10962,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575239906,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575239908,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575239908,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240018,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575240018,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575240020,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240020,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240692,"pid":10962,"hostname":"mac.lan","msg":"DELETE /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575240692,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: DELETE /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575240693,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240693,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240803,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575240803,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575240804,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575240804,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575260005,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260007,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260019,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260023,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260031,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260033,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260171,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260193,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260461,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260498,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575260507,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575260517,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575260518,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575260550,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575260550,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575260551,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575260551,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575260552,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260620,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575260690,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575285619,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575285705,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575285778,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575285843,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575285912,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286009,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286103,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286140,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575286140,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575286141,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575286141,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575286173,"pid":10962,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768575286173,"pid":10962,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768575286174,"pid":10962,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575286174,"pid":10962,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768575286175,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286250,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286325,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286414,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768575286484,"pid":10962,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576101355,"pid":11753,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768576101798,"pid":11753,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768576127487,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127564,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127641,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127714,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127788,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127864,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127941,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576127977,"pid":11753,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576127977,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768576127979,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576127979,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576127982,"pid":11753,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576127982,"pid":11753,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576127983,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576127983,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576128014,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128092,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128137,"pid":11753,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576128137,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768576128138,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576128138,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576128147,"pid":11753,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576128147,"pid":11753,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576128147,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576128147,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576128168,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128236,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128304,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128365,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128440,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128508,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576128576,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768576137100,"pid":11753,"hostname":"mac.lan","msg":"POST /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576137100,"pid":11753,"hostname":"mac.lan","msg":"POST /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576137101,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576137101,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576140505,"pid":11753,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576140506,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768576140507,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576140507,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576140625,"pid":11753,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768576140625,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768576140626,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768576140626,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768584136011,"pid":11753,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768584220467,"pid":11753,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768584220468,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768584220480,"pid":11753,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768584220480,"pid":11753,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768584470638,"pid":11753,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768584470638,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":40,"time":1768584470638,"pid":11753,"hostname":"mac.lan","msg":"No token provided in Authorization header"}
+{"level":30,"time":1768584558226,"pid":11753,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768584558226,"pid":11753,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":50,"time":1768584558228,"pid":11753,"hostname":"mac.lan","msg":"Token verification failed: jwt expired"}
+{"level":50,"time":1768584558228,"pid":11753,"hostname":"mac.lan","msg":"Token verification failed: Invalid token"}
+{"level":30,"time":1768586756612,"pid":18346,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768586756928,"pid":18346,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768586767990,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768091,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768165,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768233,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768308,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768390,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768417,"pid":18346,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768418,"pid":18346,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768422,"pid":18346,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768422,"pid":18346,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768427,"pid":18346,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768427,"pid":18346,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768586768429,"pid":18346,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768429,"pid":18346,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768482,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768573,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768631,"pid":18346,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768631,"pid":18346,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768632,"pid":18346,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768632,"pid":18346,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768655,"pid":18346,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586768655,"pid":18346,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768586768656,"pid":18346,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768656,"pid":18346,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768586768680,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768759,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768842,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586768940,"pid":18346,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768586777609,"pid":18346,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768586777609,"pid":18346,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":50,"time":1768586777611,"pid":18346,"hostname":"mac.lan","msg":"Token verification failed: jwt expired"}
+{"level":50,"time":1768586777611,"pid":18346,"hostname":"mac.lan","msg":"Token verification failed: Invalid token"}
+{"level":30,"time":1768587217468,"pid":18924,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768587217885,"pid":18924,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768587246085,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587246164,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587246235,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587246312,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587246390,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587246462,"pid":18924,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587293856,"pid":18924,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587293856,"pid":18924,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":50,"time":1768587293862,"pid":18924,"hostname":"mac.lan","msg":"Token verification failed: jwt expired"}
+{"level":50,"time":1768587293863,"pid":18924,"hostname":"mac.lan","msg":"Token verification failed: Invalid token"}
+{"level":30,"time":1768587576264,"pid":19732,"hostname":"mac.lan","msg":"Blog Service running on port 5002"}
+{"level":30,"time":1768587576601,"pid":19732,"hostname":"mac.lan","msg":"Connected to MongoDB"}
+{"level":30,"time":1768587590759,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587590831,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587590892,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587590964,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591032,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591095,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591173,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591244,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591318,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591342,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591342,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591354,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591354,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591360,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591360,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587591361,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591361,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591377,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591377,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591378,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591378,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591537,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587591537,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587591537,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591537,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587591563,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591635,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591711,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591782,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591858,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591922,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587591979,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587595584,"pid":19732,"hostname":"mac.lan","msg":"DELETE /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587595584,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: DELETE /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587595585,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587595585,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587595705,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587595705,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587595707,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587595707,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587596212,"pid":19732,"hostname":"mac.lan","msg":"POST /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587596212,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: POST /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587596213,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587596213,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587596329,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587596329,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587596331,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587596331,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587601511,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768587686844,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587686844,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":50,"time":1768587686848,"pid":19732,"hostname":"mac.lan","msg":"Token verification failed: jwt expired"}
+{"level":50,"time":1768587686848,"pid":19732,"hostname":"mac.lan","msg":"Token verification failed: Invalid token"}
+{"level":30,"time":1768587805440,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768587805440,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768587805444,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768587805445,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589160794,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589160879,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589160951,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161020,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161091,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161162,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161229,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161299,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161299,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768589161301,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161301,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161302,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161302,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161303,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161303,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161312,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161325,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161325,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161326,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161326,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161328,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768589161328,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768589161328,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161328,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768589161386,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161461,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161534,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768589161605,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793060,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793477,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793542,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793621,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793695,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793779,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793849,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793930,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590793938,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793938,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768590793940,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793940,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793941,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793941,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793942,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793942,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793963,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793963,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793964,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793964,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793965,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768590793965,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768590793966,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590793966,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768590794137,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590794211,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590794294,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768590794364,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592392316,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592392695,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592392803,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592392895,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592392966,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393040,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393116,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393194,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393194,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768592393197,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393197,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393198,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393200,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393201,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393204,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393204,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393236,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393236,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768592393238,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393238,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393243,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393243,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768592393247,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393248,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768592393422,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393489,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393561,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768592393636,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594161925,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162314,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162385,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162461,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162534,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162606,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162683,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162726,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162727,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768594162728,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162728,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162729,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162729,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162730,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162730,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162747,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594162751,"pid":19732,"hostname":"mac.lan","msg":"GET /api/likes/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162751,"pid":19732,"hostname":"mac.lan","msg":"Likes Route: GET /api/likes/69690dda3fcf28383b5a7ebf"}
+{"level":30,"time":1768594162752,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162752,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162758,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162758,"pid":19732,"hostname":"mac.lan","msg":"GET /api/comments/69690dda3fcf28383b5a7ebf - Request received"}
+{"level":30,"time":1768594162759,"pid":19732,"hostname":"mac.lan","message":"Token verification successful","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162759,"pid":19732,"hostname":"mac.lan","message":"User authenticated successfully","userId":"69668dfe39730362cf29d5b7","email":"john.doe@gmail.com"}
+{"level":30,"time":1768594162983,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594163054,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594163117,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}
+{"level":30,"time":1768594163232,"pid":19732,"hostname":"mac.lan","msg":"GET /api/posts?page=1&results_per_page=5 - Request received"}

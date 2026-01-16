@@ -92,7 +92,7 @@ router.post("/auth/logout", protect, async (req, res) => {
 // Blog-Service Routes
 
 // Forward requests for blog posts
-router.use("/posts", protect, async (req, res) => {
+router.use("/posts", async (req, res) => {
   // Use protect middleware to ensure only authenticated users can access
   //destructure the request object
   const { method, body, headers, originalUrl } = req;
@@ -127,7 +127,7 @@ router.use("/posts", protect, async (req, res) => {
 
 // TODO
 // Implement /comments route to handle comment functionality
-router.use("/comments", protect, async (req, res) => {
+router.use("/comments", async (req, res) => {
   try {
     const targetUrl = `${process.env.BLOG_SERVICE_URL}/api/comments${req.url}`;
 
@@ -153,10 +153,15 @@ router.use("/comments", protect, async (req, res) => {
 });
 
 // TODO
-// Implement /likes route to handle comment functionality
-router.use("/likes", protect, async (req, res) => {
+// Implement /likes route to handle likes functionality
+router.use("/likes", async (req, res) => {
+
+  const targetUrl = `${process.env.BLOG_SERVICE_URL}/api/likes${req.url}`;
+  
   try {
-    const targetUrl = `${process.env.BLOG_SERVICE_URL}/api/likes${req.url}`;
+    
+
+    logger.info(`Forwarding ${req.method} ${targetUrl}`);
 
     const response = await axios({
       method: req.method,
@@ -170,7 +175,9 @@ router.use("/likes", protect, async (req, res) => {
     logger.info(`Forwarded ${req.method} ${req.originalUrl} -> ${targetUrl}`);
     return res.status(response.status).json(response.data);
   } catch (error) {
-    logger.error(`Error forwarding /likes: ${error.message}`);
+    logger.error(
+      `Error forwarding /likes: ${req.method} ${targetUrl} - ${error.message}`
+    );
 
     const status = error.response?.status || 500;
     const data = error.response?.data || { message: "Error forwarding request" };

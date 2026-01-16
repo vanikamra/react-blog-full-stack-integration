@@ -34,6 +34,51 @@ function LikeButton({ postId, isDarkMode }) {
                     // Determine if the current user has liked the post by checking if their user ID exists in the likes data. Update the isLiked state accordingly.
             // Handle Errors:
                     // Use a try...catch block to catch and log any errors. Alert the user in case of an error.
+
+try {
+    const authUserRaw = localStorage.getItem("auth_user");
+    const authUser = authUserRaw ? JSON.parse(authUserRaw) : null;
+
+    const token = authUser?.token;
+    if (!token) {
+      alert("You must be logged in to view likes.");
+      return;
+    }
+
+    const res = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/likes/${postId}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    if (!res.ok) {
+      const errData = await res.json().catch(() => ({}));
+      throw new Error(errData.message || "Failed to fetch likes");
+    }
+
+    const likesData = await res.json(); // array of likes
+    setLikes(likesData.length);
+
+    // Figure out current user's id to check if they have liked the post
+    const currentUserId =
+      authUser?.user?.id || authUser?.user?._id || authUser?.id || authUser?._id;
+
+    const userHasLiked = Array.isArray(likesData)
+      ? likesData.some((like) => {
+          const likeUserId = like?.user?.id || like?.user?._id || like?.user;
+          return currentUserId && likeUserId?.toString() === currentUserId.toString();
+        })
+      : false;
+
+    setIsLiked(userHasLiked);
+  } catch (error) {
+    console.error("fetchLikes error:", error);
+    alert(error.message || "Error fetching likes");
+  }
     };
 
     fetchLikes(); //Call the fetchLikes function to execute
@@ -59,7 +104,67 @@ function LikeButton({ postId, isDarkMode }) {
                     // Update the likes and isLiked states based on the response.
             // Handle Errors:
                     // Use a try...catch block to log and alert the user in case of an error.
-    
+     try {
+    const authUserRaw = localStorage.getItem("auth_user");
+    const authUser = authUserRaw ? JSON.parse(authUserRaw) : null;
+
+    const token = authUser?.token;
+    if (!token) {
+      alert("You must be logged in to like a post.");
+      return;
+    }
+
+    const method = isLiked ? "DELETE" : "POST";
+
+    const res = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/likes/${postId}`,
+      {
+        method,
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    if (!res.ok) {
+      const errData = await res.json().catch(() => ({}));
+      throw new Error(errData.message || "Like action failed");
+    }
+
+    // After like/unlike, re-fetch likes to update count and status
+    const updatedRes = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/likes/${postId}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+
+    if (!updatedRes.ok) {
+      const errData = await updatedRes.json().catch(() => ({}));
+      throw new Error(errData.message || "Failed to refresh likes");
+    }
+
+    const likesData = await updatedRes.json();
+    setLikes(likesData.length);
+
+    const currentUserId =
+      authUser?.user?.id || authUser?.user?._id || authUser?.id || authUser?._id;
+
+    const userHasLiked = Array.isArray(likesData)
+      ? likesData.some((like) => {
+          const likeUserId = like?.user?.id || like?.user?._id || like?.user;
+          return currentUserId && likeUserId?.toString() === currentUserId.toString();
+        })
+      : false;
+
+    setIsLiked(userHasLiked);
+  } catch (error) {
+    console.error("handleLikeClick error:", error);
+    alert(error.message || "Error liking post");
+  }
   };
 
   return (
@@ -96,7 +201,7 @@ function LikeButton({ postId, isDarkMode }) {
 
 // PropTypes for type checking the component's props
 LikeButton.propTypes = {
-  postId: PropTypes.number.isRequired, //postId is required and must be a number
+  postId: PropTypes.string.isRequired, //postId is required and must be a string
   isDarkMode: PropTypes.bool.isRequired, //isDarkMode is required and must be a boolean
 };
 

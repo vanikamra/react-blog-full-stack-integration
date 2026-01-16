@@ -46,3 +46,30 @@
     // Steps:
           // Use module.exports to export the router instance.
           // Import and mount this router in your main application file (e.g., app.js) under the desired base path.
+
+
+const express = require("express");
+
+const {
+  addLike,
+  removeLike,
+  getLikesByPost,
+} = require("../controllers/likeController");
+
+const { protect } = require("../middleware/authMiddleware");
+const logger = require("../blogLogs/logger");
+
+const router = express.Router();
+
+// Logging middleware
+router.use((req, res, next) => {
+  logger.info(`Likes Route: ${req.method} ${req.originalUrl}`);
+  next();
+});
+
+// Routes
+router.post("/:id", protect, addLike);
+router.delete("/:id", protect, removeLike);
+router.get("/:id", protect, getLikesByPost);
+
+module.exports = router;

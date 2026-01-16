@@ -8,6 +8,8 @@ const logger = require("./blogLogs/logger");
 // Import Routes
 const postRoutes = require("./routes/postRoutes");
 const commentRoutes = require("./routes/commentRoutes");
+const likeRoutes = require("./routes/likeRoutes");
+
 
 const app = express();
 const PORT = process.env.PORT || 5002;
@@ -28,6 +30,8 @@ app.use((req, res, next) => {
 // Routes
 app.use("/api/posts", postRoutes);
 app.use("/api/comments", commentRoutes);
+app.use("/api/likes", likeRoutes);
+
 
 // MongoDB Connection
 mongoose

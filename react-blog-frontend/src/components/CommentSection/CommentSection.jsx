@@ -6,6 +6,11 @@ import styles from "./CommentSection.module.css";
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5003";
 
+const getAuth = () => {
+  const raw = localStorage.getItem("auth_user");
+  return raw ? JSON.parse(raw) : null;
+};
+// CommentSection component definition
 
 function CommentSection({ postId }) {
   const [comments, setComments] = useState([]); // State to store fetched comments
@@ -28,7 +33,9 @@ function CommentSection({ postId }) {
   
 const fetchComments = async () => {
 try {
-    const token = localStorage.getItem("token");
+    const auth = getAuth();
+    const token = auth?.token;
+
     if (!token) {
       alert("Please log in to view comments.");
       setComments([]);
@@ -78,7 +85,9 @@ try {
        e.preventDefault();
 
   try {
-    const token = localStorage.getItem("token");
+    const auth = getAuth();
+    const token = auth?.token;
+
     if (!token) {
       alert("Please log in to add a comment.");
       return;
@@ -139,7 +148,9 @@ try {
        e.preventDefault();
 
   try {
-    const token = localStorage.getItem("token");
+    const auth = getAuth();
+    const token = auth?.token;
+
     if (!token) {
       alert("Please log in to update a comment.");
       return;
@@ -196,26 +207,14 @@ try {
             // Send a DELETE request to the API with the token in the Authorization header.
             // If successful, remove the deleted comment from the comments state to update the UI.
             // Handle any errors, providing meaningful feedback to the user.
-     try {
-    const token = localStorage.getItem("token");
+try {
+    const auth = getAuth();
+    const token = auth?.token;
+    const currentUserId = auth?.user?.id || auth?.user?._id;
     if (!token) {
       alert("Please log in to delete a comment.");
       return;
     }
-
-    const currentUserId =
-      localStorage.getItem("userId") ||
-      (() => {
-        const userRaw = localStorage.getItem("user");
-        if (!userRaw) return null;
-        try {
-          const u = JSON.parse(userRaw);
-          return u?.id || u?._id || null;
-        } catch {
-          return null;
-        }
-      })();
-
     // commentAuthorId might be an object or an id string
     const normalizedAuthorId =
       typeof commentAuthorId === "object"
